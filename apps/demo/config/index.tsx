@@ -1,5 +1,6 @@
 import { Button } from "./blocks/Button";
 import { Card } from "./blocks/Card";
+import { Columns } from "./blocks/Columns";
 import { Grid } from "./blocks/Grid";
 import { Hero } from "./blocks/Hero";
 import { Heading } from "./blocks/Heading";
@@ -30,12 +31,13 @@ export const conf: UserConfig = {
     },
     other: {
       title: "Other",
-      components: ["Card", "Hero", "Logos", "Stats", "Template"],
+      components: ["Card", "Columns", "Hero", "Logos", "Stats", "Template"],
     },
   },
   components: {
     Button,
     Card,
+    Columns,
     Grid,
     Hero,
     Heading,

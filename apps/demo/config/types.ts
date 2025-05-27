@@ -10,6 +10,7 @@ import { StatsProps } from "./blocks/Stats";
 import { TemplateProps } from "./blocks/Template";
 import { TextProps } from "./blocks/Text";
 import { SpaceProps } from "./blocks/Space";
+import { ColumnsProps } from "./blocks/Columns";
 
 import { RootProps } from "./root";
 
@@ -18,6 +19,7 @@ export type { RootProps } from "./root";
 export type Props = {
   Button: ButtonProps;
   Card: CardProps;
+  Columns: ColumnsProps;
   Grid: GridProps;
   Hero: HeroProps;
   Heading: HeadingProps;
